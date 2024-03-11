@@ -1,0 +1,9 @@
+.menu {
+    position: fixed;
+    justify-content: space-around;
+    width: 100vw;
+    display: flex;
+    z-index: 1000;
+    bottom: 0;
+    left: 0;
+  }

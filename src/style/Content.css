@@ -1,0 +1,74 @@
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  
+  .team-badge img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 5px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .match-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .team-badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .team-badge img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: 20px;
+    margin-left:30px;
+    margin-right:30px;
+  }
+  .match-details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .team-names {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .date-time {
+    font-size: 0.8em;
+  }
+  .league-name{
+    font-size: 1.2em;
+  }
+  .vs {
+    font-size: 1.0em;
+    margin: 0 5px;
+  }
+  .App {
+    display:flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+  }
